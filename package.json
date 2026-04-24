@@ -1,15 +1,20 @@
 {
   "name": "certvault",
   "version": "2.0.0",
-  "description": "CertVault Fullstack",
+  "description": "Certificate Vault with MongoDB Integration",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2",
+    "express-session": "^1.18.0",
+    "multer": "^1.4.5-lts.1",
     "bcryptjs": "^2.4.3",
-    "express": "^4.22.1",
-    "express-session": "^1.19.0",
-    "multer": "^2.1.1"
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
